@@ -1,0 +1,39 @@
+h1 {
+    color: rgba(255, 0, 0, 0.767)
+}
+
+h3 {
+    font-style: italic;
+    color: rgb(255, 55, 0);
+}
+
+ol {
+    color: rgb(108, 54, 54);
+}
+
+.one {
+    text-decoration-line: line-through;
+}
+
+.raw {
+    font-style: italic;
+    text-decoration: underline;
+}
+
+ul {
+    letter-spacing: 2px;
+    color: rgb(108, 54, 54);
+}
+
+p {
+    color: rgb(108, 54, 54);
+}
+
+b {
+    background-color: yellow
+}
+
+a {
+    background-color: yellow;
+    font-style: italic;
+}
