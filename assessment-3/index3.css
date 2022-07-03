@@ -1,0 +1,193 @@
+body {
+    background-color: aquamarine;
+    display: block;
+    margin: 7px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+header {
+    color: crimson;
+    background-color: aliceblue;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 10px 100px;
+    display: inline-block;
+    border: 5px solid maroon;
+    border-radius: 10px;
+    text-align: center;
+    text-shadow: 2px 1px;
+    box-shadow: 5px 5px coral;
+    box-sizing: border-box;
+
+}
+
+.boxes {
+    border: 10px solid mediumvioletred;
+    height: 550px;
+    position: relative;
+    display: block;
+}
+
+.box-1 {
+    color: crimson;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    font-size: 26.5px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 20px 5px;
+    border: 5px solid maroon;
+    border-radius: 10px;
+    text-align: center;
+    text-shadow: 2px 1px;
+    box-shadow: 5px 5px coral;
+    box-sizing: border-box;
+    position: absolute;
+    top: 5px;
+    left: 50px;
+
+}
+
+img {
+    width: 240px;
+}
+
+.box-2 {
+    color: crimson;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    padding: 20px 5px;
+    border: 5px solid maroon;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 5px coral;
+    box-sizing: border-box;
+    position: absolute;
+    top: 5px;
+    right: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-3 {
+    color: crimson;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    font-size: 26.5px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 20px 5px;
+    border: 5px solid maroon;
+    border-radius: 10px;
+    text-align: center;
+    text-shadow: 2px 1px;
+    box-shadow: 5px 5px coral;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 5px;
+    left: 50px;
+}
+
+.box-4 {
+    color: crimson;
+    background-color: white;
+    width: 250px;
+    height: 250px;
+    font-size: 26.5px;
+    padding: 10px 5px;
+    border: 5px solid maroon;
+    border-radius: 10px;
+    text-align: center;
+    text-shadow: 2px 1px;
+    box-shadow: 5px 5px coral;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 5px;
+    right: 50px;
+}
+
+.rate{
+    color: navy;
+    font-size: 20px;
+    text-shadow: none;
+}
+
+.offer-card {
+    color: crimson;
+    background-color: rgb(12, 6, 12);
+    font-weight: bold;
+    font-style: italic;
+    font-size: 26.5px;
+    padding: 15px 10px 5px 20px;
+    border: 5px solid rgb(184, 3, 3);
+    border-radius: 15px;
+    text-align: center;
+    display: flex;
+    text-shadow: 2px 1px;
+    box-shadow: 5px 5px rgb(171, 162, 162);
+    position: fixed;
+    bottom: 50px;
+    right: 400px;
+    left: 400px;
+
+}
+
+.offer-message-2{
+    color: white;
+    font-size: 15px;
+    text-shadow: none;
+    padding-top: 10px;
+}
+
+.store{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.store-details{
+    color: white;
+    background-color: green;
+    border: 10px solid maroon;
+}
+
+.store-details h2{
+    text-align: center;
+    font-weight: bold;
+    display: block;
+
+}
+
+.store-items{
+    display: flex;
+    font-style: italic;
+}
+
+.store-items div{
+    text-align: center;
+    color: black;
+    background-color: yellow;
+    margin: 5px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.others{
+    text-align: center;
+    color: black;
+    background-color: yellow;
+    margin: 5px;
+    box-sizing: border-box;
+    display: block;
+    font-style: italic;
+    align-items: center;
+}
