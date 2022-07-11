@@ -1,0 +1,151 @@
+body{
+    background-image: url(./sahara-desert.jpg);
+    background-size: cover;
+}
+
+.navbar{
+    margin-left: 30px;
+    margin-right: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.logo{
+    width: 130px;
+    height: 70px;
+}
+
+.flex-contain{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    gap: 70px;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.linkbar{
+    text-decoration: none;
+    color: white;
+}
+
+.material-icons{
+    margin-top: 10px;
+}
+
+.contain-1{
+    position: relative;
+    left: 5vw;
+    width: 40vw;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 20px;
+}
+
+.contain-1-head{
+    font-size: 90px;
+    margin-bottom: 5px; 
+}
+
+.contain-1 button{
+    border: none;
+    border-radius: 15px;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.contain-2{
+    position: relative;
+    left: 55vw;
+    bottom: 420px;
+    width: 550px;
+    height: 30vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    column-gap: 30px;
+    row-gap: 30px;
+    float: left;
+}
+
+.contain-2-item{
+    height: 35vh;
+    transition: 1s all linear;
+}
+
+.contain-2-item:hover{
+    transform: translateY(-25px);
+}
+
+.gridimg{
+    width: 220px;
+    height: 220px;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.text1{
+    position: relative;
+    bottom: 225px;
+    
+}
+
+.para1{
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+}
+
+.para2{
+    color: white;
+    font-size: small;
+}
+
+.para3{
+    color: white;
+    font-size: small;
+}
+
+@media (max-width:600px) {
+    .contain-2{
+        padding-top: 80px;
+        position: static;
+        grid-template-columns: auto;
+        width: 100%;
+        justify-content: center;
+        row-gap: 50px;
+    }
+
+}
+
+@media (max-width:850px) {
+    .flex-contain{
+        gap: 20px;
+    }
+
+    .navbar{
+        margin-right: 10px;
+    }
+
+    .contain-1{
+        position: static;
+        text-align: center;
+        width: 100%;
+        display: block;
+    }
+
+    .contain-2{
+        padding-top: 80px;
+        position: static;
+        grid-template-columns: auto;
+        width: 100%;
+        justify-content: center;
+        row-gap: 50px;
+    }
+}
